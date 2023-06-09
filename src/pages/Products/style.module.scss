@@ -1,0 +1,15 @@
+.orders {
+    position: relative;
+    padding: 100px 40px 100px 60px;
+    background-color: rgb(236, 236, 236);
+
+    .content_table {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .orders {
+        padding: 100px 30px 100px 30px;
+    }
+}

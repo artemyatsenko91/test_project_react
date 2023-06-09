@@ -1,0 +1,12 @@
+.main {
+    flex: 1 1 auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 190px 1fr;
+}
+
+@media (max-width: 1024px) {
+    .main {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,22 @@
+.content__header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    .header_text {
+        font-family: "Roboto_Bold";
+        font-size: 28px;
+    }
+
+    .content__header_select {
+        display: flex;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 440px) {
+    .content__header {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

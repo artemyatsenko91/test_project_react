@@ -1,0 +1,193 @@
+{
+	"orders": [
+		{
+			"id": 1,
+			"title": "Orderssssssssssssssssssssssssssssssssssss 1",
+			"date": "2017-06-29 12:09:33",
+			"status": "В работе",
+			"description": "desc 1"
+		},
+		{
+			"id": 5,
+			"title": "",
+			"date": "2017-06-29 12:09:33",
+			"status": "",
+			"description": "desc 1"
+		},
+		{
+			"id": 2,
+			"title": "Order 2",
+			"date": "2017-06-29 12:09:33",
+			"status": "В ожидании",
+			"description": "desc 2"
+		},
+		{
+			"id": 3,
+			"title": "Order 3",
+			"date": "2017-06-29 12:09:33",
+			"status": "Отменен",
+			"description": "desc 3"
+		},
+		{
+			"id": 4,
+			"title": "Order 4",
+			"date": "2017-06-29 12:09:33",
+			"status": "Выполнен",
+			"description": "desc 4"
+		}
+	],
+	"products": [
+		{
+			"id": 1,
+			"serialNumber": 1234,
+			"isNew": 1,
+			"photo": "/images/image.png",
+			"title": "Product 111111111111111111111111111111111111",
+			"type": "Monitors",
+			"specification": "Specification 1",
+			"guarantee": {
+				"start": "2017-06-29 12:09:33",
+				"end": "2017-06-29 12:09:33"
+			},
+			"price": [
+				{ "value": 1002, "symbol": "USD", "isDefault": 0 },
+				{ "value": 21600, "symbol": "UAH", "isDefault": 1 }
+			],
+			"order": 1,
+			"date": "2017-06-29 12:09:33"
+		},
+		{
+			"id": 2,
+			"serialNumber": 1234,
+			"isNew": 1,
+			"photo": "/images/image.png",
+			"title": "Product 2",
+			"type": "Monitors",
+			"specification": "Specification 2",
+			"guarantee": {
+				"start": "2018-06-29 12:09:33",
+				"end": "2018-06-29 12:09:33"
+			},
+			"price": [
+				{ "value": 3400, "symbol": "USD", "isDefault": 0 },
+				{ "value": 22600, "symbol": "UAH", "isDefault": 1 }
+			],
+			"order": 1,
+			"date": "2018-06-29 12:09:33"
+		},
+		{
+			"id": 3,
+			"serialNumber": 1234,
+			"isNew": 1,
+			"photo": "/images/image.png",
+			"title": "Product 3",
+			"type": "Monitors",
+			"specification": "Specification 3",
+			"guarantee": {
+				"start": "2018-06-29 12:09:33",
+				"end": "2018-06-29 12:09:33"
+			},
+			"price": [
+				{ "value": 3, "symbol": "USD", "isDefault": 0 },
+				{ "value": 100, "symbol": "UAH", "isDefault": 1 }
+			],
+			"order": 2,
+			"date": "2018-06-29 12:09:33"
+		},
+		{
+			"id": 4,
+			"serialNumber": 1234,
+			"isNew": 1,
+			"photo": "/images/image.png",
+			"title": "Product 4",
+			"type": "Monitors",
+			"specification": "Specification 4",
+			"guarantee": {
+				"start": "2018-06-29 12:09:33",
+				"end": "2018-06-29 12:09:33"
+			},
+			"price": [
+				{ "value": 10, "symbol": "USD", "isDefault": 0 },
+				{ "value": 2200, "symbol": "UAH", "isDefault": 1 }
+			],
+			"order": 2,
+			"date": "2018-06-29 12:09:33"
+		},
+		{
+			"id": 5,
+			"serialNumber": 1234,
+			"isNew": 1,
+			"photo": "/images/image.png",
+			"title": "Product 5",
+			"type": "Monitors",
+			"specification": "Specification 5",
+			"guarantee": {
+				"start": "2018-06-29 12:09:33",
+				"end": "2018-06-29 12:09:33"
+			},
+			"price": [
+				{ "value": 290, "symbol": "USD", "isDefault": 0 },
+				{ "value": 2700, "symbol": "UAH", "isDefault": 1 }
+			],
+			"order": 3,
+			"date": "2018-06-29 12:09:33"
+		},
+		{
+			"id": 6,
+			"serialNumber": 1234,
+			"isNew": 1,
+			"photo": "/images/image.png",
+			"title": "Product 5",
+			"type": "Monitors",
+			"specification": "Specification 5",
+			"guarantee": {
+				"start": "2018-06-29 12:09:33",
+				"end": "2018-06-29 12:09:33"
+			},
+			"price": [
+				{ "value": 340, "symbol": "USD", "isDefault": 0 },
+				{ "value": 1600, "symbol": "UAH", "isDefault": 1 }
+			],
+			"order": 4,
+			"date": "2018-06-29 12:09:33"
+		},
+		{
+			"id": 7,
+			"serialNumber": 1234,
+			"isNew": 1,
+			"photo": "/images/image.png",
+			"title": "Product 5",
+			"type": "Monitors",
+			"specification": "Specification 5",
+			"guarantee": {
+				"start": "2018-06-29 12:09:33",
+				"end": "2018-06-29 12:09:33"
+			},
+			"price": [
+				{ "value": 3, "symbol": "USD", "isDefault": 0 },
+				{ "value": 600, "symbol": "UAH", "isDefault": 1 }
+			],
+			"order": 4,
+			"date": "2018-06-29 12:09:33"
+		},
+		{
+			"id": 8,
+			"serialNumber": 1234,
+			"isNew": 1,
+			"photo": "/images/image.png",
+			"title": "Product 5",
+			"type": "Monitors",
+			"specification": "Specification 5",
+			"guarantee": {
+				"start": "2018-06-29 12:09:33",
+				"end": "2018-06-29 12:09:33"
+			},
+			"price": [
+				{ "value": 30, "symbol": "USD", "isDefault": 0 },
+				{ "value": 200, "symbol": "UAH", "isDefault": 1 }
+			],
+			"order": 5,
+			"date": "2018-06-29 12:09:33"
+		}
+	]
+}

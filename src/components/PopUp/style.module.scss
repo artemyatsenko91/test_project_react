@@ -1,0 +1,126 @@
+.pop_up_wrapper {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .37);
+    overflow-y: hidden;
+
+    .pop_up {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        border-radius: 10px;
+        background-color: aliceblue;
+        -webkit-box-shadow: 10px 10px 23px -6px rgba(0, 0, 0, 0.55);
+        -moz-box-shadow: 10px 10px 23px -6px rgba(0, 0, 0, 0.55);
+        box-shadow: 10px 10px 23px -6px rgba(0, 0, 0, 0.55);
+        animation: 900ms ease 1 normal both fade-animation;
+
+        .pop_up_title {
+            font-size: 24px;
+            font-family: "Roboto-Regular";
+            padding: 30px;
+        }
+
+        .pop_up__product_info {
+            border-top: 1px solid rgb(151, 151, 151);
+            display: grid;
+            grid-template-columns: 50px 120px 1fr;
+            padding: 20px 30px;
+        }
+
+        .pop_up_buttons {
+            display: flex;
+            justify-content: flex-end;
+            padding: 30px 30px;
+            gap: 20px;
+            background-color: rgb(127, 204, 50);
+            overflow: hidden;
+            border-radius: 0 0 10px 10px;
+
+            .btn_cancel {
+                background-color: transparent;
+                font-size: 18px;
+                font-family: "Roboto-Regular";
+                color: rgb(255, 255, 255);
+                cursor: pointer;
+            }
+
+            .btn_remove {
+                display: flex;
+                box-sizing: border-box;
+                gap: 10px;
+                place-content: center center;
+                padding: 10px 30px;
+                background-color: rgb(255, 255, 255);
+                border-radius: 100px;
+                font-size: 18px;
+                font-family: "Roboto-Regular";
+                color: rgb(190, 85, 85);
+                cursor: pointer;
+                transition: all .3s ease;
+
+                &:hover {
+                    -webkit-box-shadow: 10px 10px 23px -6px rgba(0, 0, 0, 0.55);
+                    -moz-box-shadow: 10px 10px 23px -6px rgba(0, 0, 0, 0.55);
+                    box-shadow: 10px 10px 23px -6px rgba(0, 0, 0, 0.55);
+                    color: rgb(255, 0, 0);
+
+                    .icon_delete {
+
+                        path {
+                            stroke: rgb(255, 0, 0);
+
+                        }
+                    }
+                }
+
+                .icon_delete {
+                    height: 18px;
+
+                    path {
+                        stroke: rgb(190, 85, 85);
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes fade-animation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .pop_up_wrapper {
+        .pop_up {
+            width: 90%;
+        }
+    }
+}
+
+@media (max-width: 620px) {
+    .pop_up_wrapper {
+        .pop_up {
+            .pop_up_title {
+                text-overflow: ellipsis;
+                overflow: hidden;
+                width: 70%;
+                white-space: nowrap;
+            }
+        }
+    }
+}
